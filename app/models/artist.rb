@@ -1,4 +1,4 @@
 class Artist < ApplicationRecord
 	has_many :albums
-	hasmany :songs,through: :albums
+	has_many :songs,through: :albums
 end
