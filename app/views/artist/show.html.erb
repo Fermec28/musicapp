@@ -1,0 +1,8 @@
+<h1><%= @artist.name%></h1>
+<ul>
+<% if @artist.albums %>
+	<% @artist.albums.each do |album|%>
+		<%=   album.name %>
+	<% end %>
+<%end%>
+</ul>
